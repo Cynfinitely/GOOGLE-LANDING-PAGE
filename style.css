@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#list-container li{
+    display: inline;
+}
+
+#nav{
+    float: right;
+}
+
+#nav li{
+    display: inline;
+}
+
+#center-container{
+    text-align: center;
+}
+
+#search-container{
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#search-container img{
+    width: 20px;
+    height: 20px;
+}
