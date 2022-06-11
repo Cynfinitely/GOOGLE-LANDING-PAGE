@@ -10,24 +10,24 @@
 </head>
 <body>
     <div id="container">
-        <div id="list-container">
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Store</a></li>
-            </ul>
-        </div>
-
-        <div id="nav-container">
-            <nav id="nav">
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Images</a></li>
-                <img src="../GOOGLE-LANDING-PAGE/images/appicon.png" alt="appicon">
-                <button>Sign In</button>
+        <header id="list-container">
+            <nav id="list-container-left">
+                <a href="#" class="header-links">About</a>
+                <a href="#" class="header-links">Store</a>
             </nav>
-        </div>
+
+            <nav id="list-container-right">
+                <a href="#" class="header-links">Gmail</a>
+                <a href="#" class="header-links">Images</a>
+                <a href="#" class="header-links" id="appicon">
+                    <img src="../GOOGLE-LANDING-PAGE/images/appicon.png" alt="appicon" />
+                </a>
+                <button id="sign-in-button">Sign In</button>
+            </nav>
+        </header>
 
         <div id="center-container">
-            <img src="../GOOGLE-LANDING-PAGE/images/googlelogo.png" alt="google-logo">
+            <img src="../GOOGLE-LANDING-PAGE/images/googlelogo.png" alt="google-logo" id="google-logo">
             <div id="search-container">
                 <img src="../GOOGLE-LANDING-PAGE/images/Magnifying_glass_icon.png" alt="search-icon"
                 id="img1">
@@ -42,6 +42,7 @@
 
             <p>Other Languages you can use Google. <a href="">English</a></p>
         </div>
+
     </div>
 </body>
 </html>
